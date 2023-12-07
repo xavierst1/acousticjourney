@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <section class="hero">
+        <img src="./assets/images/1.jpeg" class="hero-img" alt="">
+    </section>
+
+    <section class="container">
+        <main>
+            <div class="text-container">
+                <div class="heading">
+                    <h1>6 Weeks - 6 Songs - 1 Bike</h1>
+                </div>
+                <p class="paragraph">
+                    During a 6-week journey, one song will be released each week. Meanwhile, the journey will be
+                    documented. :)
+                </p>
+
+                <div class="buttonarea">
+                    <a href="#" class="button-primary">Order Album</a>
+                    <a href="#" class="button-outline-primary">Home</a>
+                </div>
+                <video class="hero-video" autoplay controls>
+                    <source src="./assets/images/1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <section class="quiz-section">
+                    <div class="container">
+                        <h2 class="quiz-heading" style="text-align: center;">Test Your Knowledge About Xavier's Travel
+                            Adventures!</h2>
+                        <form id="xavierQuiz" class="quiz-form">
+                            <!-- Question 1 -->
+                            <div class="question" style="text-align: center;">
+                                <h3>What is Xavier’s favorite drink?</h3>
+                                <label class="correct"><input type="radio" name="drink" value="Water"> Water</label>
+                                <label class="worng"><input type="radio" name="drink" value="CocaCola"> CocaCola</label>
+                                <label class="worng"><input type="radio" name="drink" value="Beer"> Beer</label>
+                            </div>
+
+                            <!-- Question 2 -->
+                            <div class="question" style="text-align: center;">
+                                <h3>How many times did he have a flat tire?</h3>
+                                <label class="worng"><input type="radio" name="flatTire" value="1"> 1</label>
+                                <label class="correct"><input type="radio" name="flatTire" value="2"> 2</label>
+                                <label class="worng"><input type="radio" name="flatTire" value="3"> 3</label>
+                            </div>
+
+                            <!-- Question 3 -->
+                            <div class="question" style="text-align: center;">
+                                <h3>What is Xavier's favorite musical genre?</h3>
+                                <label class="worng"><input type="radio" name="musicGenre" value="Rock"> Rock</label>
+                                <label class="worng"><input type="radio" name="musicGenre" value="Jazz"> Jazz</label>
+                                <label class="correct"> <input type="radio" name="musicGenre" value="Pop"> Pop</label>
+                            </div>
+
+                            <!-- Question 4 -->
+                            <div class="question" style="text-align: center;">
+                                <h3>What item does Xavier always carry while traveling?</h3>
+                                <label class="worng"><input type="radio" name="travelItem" value="Portable instrument">
+                                    Portable
+                                    instrument</label>
+                                <label class="worng"><input type="radio" name="travelItem" value="Lucky charm"> Lucky
+                                    charm</label>
+                                <label class="correct"> <input type="radio" name="travelItem" value="Travel journal">
+                                    Travel
+                                    journal</label>
+                            </div>
+
+                            <!-- Question 5 -->
+                            <div class="question" style="text-align: center;">
+                                <h3>What is Xavier's go-to local dish when touring?</h3>
+                                <label class="correct"><input type="radio" name="localDish" value="Street food"> Street
+                                    food</label>
+                                <label class="worng"><input type="radio" name="localDish"
+                                        value="Traditional delicacies">
+                                    Traditional
+                                    delicacies</label>
+                                <label class="worng"><input type="radio" name="localDish" value="Fast food"> Fast
+                                    food</label>
+                            </div>
+
+                            <div id="quizResult"></div>
+                    </div>
+                </section>
+                <div class="heading-2-container">
+                    <h1 class="heading2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-music" width="80"
+                            height="80" viewBox="0 0 24 24" stroke-width="3" stroke="#ff7757" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                            <path d="M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                            <path d="M9 17v-13h10v13" />
+                            <path d="M9 8h10" />
+                        </svg>
+                        Berlin
+                    </h1>
+                    <div class="line">
+                        <div class="area"></div>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon bteats-icon icon-tabler icon-tabler-brand-beats" width="24" height="24"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="#ff7757" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M12.5 12.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
+                            <path d="M9 12v-8" />
+                        </svg>
+                    </div>
+                </div>
+                <p class="paragraph">
+                    Watch all of the insides!
+                </p>
+                <div class="buttonarea center">
+                    <a href="#" class="button-outline-primary">KM 1000 </a>
+                    <a href="#" class="button-outline-primary">Day 8 </a>
+                    <a href="#" class="button-outline-primary">17 Coffees </a>
+                </div>
+            </div>
+
+            <div class="slider  owl-carousel">
+                <a href="./detail.html" class="slider-container">
+                    <div class="img-container" style="  background-image: url('./assets/images/slider/1.jpeg');">
+                        <div class="overlay-slider-img"></div>
+                    </div>
+                    <h3 class="slider-heading">Reel</h3>
+                    <p class="slider-par"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-location" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg>
+                        Somewhere in Germany
+                    </p>
+                </a>
+
+                <a href="./detail.html" class="slider-container">
+                    <div class="img-container" style="  background-image: url('./assets/images/slider/5.jpeg');">
+                        <div class="overlay-slider-img"></div>
+                    </div>
+                    <h3 class="slider-heading">Music Video</h3>
+                    <p class="slider-par"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-location" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg>
+                        Somewhere in Germany
+                    </p>
+                </a>
+
+                <a href="./detail.html" class="slider-container">
+                    <div class="img-container" style="  background-image: url('./assets/images/slider/3.jpg');">
+                        <div class="overlay-slider-img"></div>
+                    </div>
+                    <h3 class="slider-heading">Image</h3>
+                    <p class="slider-par"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-location" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg>
+                        Somewhere in Germany
+                    </p>
+                </a>
+
+                <a href="./detail.html" class="slider-container">
+                    <div class="img-container" style="  background-image: url('./assets/images/slider/4.jpeg');">
+                        <div class="overlay-slider-img"></div>
+                    </div>
+                    <h3 class="slider-heading">Reel 2</h3>
+                    <p class="slider-par"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-location" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg>
+                        Somewhere in Germany
+                    </p>
+                </a>
+
+
+            </div>
+
+
+
+            <!-- Amsterdam -->
+            <div class="text-container">
+                <div class="heading-2-container">
+                    <h1 class="heading2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-music" width="80"
+                            height="80" viewBox="0 0 24 24" stroke-width="3" stroke="#ff7757" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                            <path d="M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                            <path d="M9 17v-13h10v13" />
+                            <path d="M9 8h10" />
+                        </svg>
+                        Amsterdam
+                    </h1>
+                    <div class="line">
+                        <div class="area"></div>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon bteats-icon icon-tabler icon-tabler-brand-beats" width="24" height="24"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="#ff7757" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M12.5 12.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
+                            <path d="M9 12v-8" />
+                        </svg>
+                    </div>
+                </div>
+                <p class="paragraph">
+                    Watch all of the insides!
+                </p>
+            </div>
+
+            <div class="slider  owl-carousel">
+                <a href="./detail.html" class="slider-container">
+                    <div class="img-container" style="  background-image: url('./assets/images/slider/9.jpg');">
+                        <div class="overlay-slider-img"></div>
+                    </div>
+                    <h3 class="slider-heading">Image</h3>
+                    <p class="slider-par"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-location" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg>
+                        Somewhere in Netherlands
+                    </p>
+                </a>
+
+                <a href="./detail.html" class="slider-container">
+                    <div class="img-container" style="  background-image: url('./assets/images/slider/10.jpg');">
+                        <div class="overlay-slider-img"></div>
+                    </div>
+                    <h3 class="slider-heading">Reel</h3>
+                    <p class="slider-par"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-location" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg>
+                        Somewhere in Netherlands
+                    </p>
+                </a>
+
+                <a href="./detail.html" class="slider-container">
+                    <div class="img-container" style="  background-image: url('./assets/images/slider/11.jpg');">
+                        <div class="overlay-slider-img"></div>
+                    </div>
+                    <h3 class="slider-heading">Music Video</h3>
+                    <p class="slider-par"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-location" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg>
+                        Somewhere in Netherlands
+                    </p>
+                </a>
+
+                <a href="./detail.html" class="slider-container">
+                    <div class="img-container" style="  background-image: url('./assets/images/slider/12.jpg');">
+                        <div class="overlay-slider-img"></div>
+                    </div>
+                    <h3 class="slider-heading">Image 2</h3>
+                    <p class="slider-par"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-location" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                        </svg>
+                        Somewhere in Netherlands
+                    </p>
+                </a>
+
+
+            </div>
+
+
+
+        </main>
+
+    </section>
+    <footer>
+        <div class="footer-c1">
+            <h3>Xavier <br> Melo</h3>
+            <p>
+                Xavier Melo | All rights reserved
+            </p>
+        </div>
+        <div class="footer-c2">
+            <h5> Acoustic Journey</h5>
+            <ul>
+                <li><a href="#">Cities</a></li>
+                <li><a href="#">Shop</a></li>
+                </a></li>
+                <li><a href="#">Terms & Conditions
+                    </a></li>
+            </ul>
+        </div>
+        <div class="footer-c2">
+            <h5> Contact Info</h5>
+            <ul>
+                <li><a href="#">music@xaviermelo.com</a></li>
+                <li><a href="#">Solothurn, Switzerland
+                    </a></li>
+
+            </ul>
+        </div>
+        <div class="footer-c2">
+            <h5> Follow me on</h5>
+            <ul>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M16.5 7.5l0 .01" />
+                        </svg></a></li>
+                </a></li>
+
+            </ul>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    1100: {
+                        items: 3
+                    }
+                    // Add more breakpoints as needed
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var quizForm = document.getElementById('xavierQuiz');
+            var radioButtons = quizForm.querySelectorAll('input[type="radio"]');
+
+            radioButtons.forEach(function (radio) {
+                radio.addEventListener('change', function () {
+                    if (this.checked) {
+                        var label = this.parentElement;
+                        if (label.classList.contains('correct')) {
+                            label.style.color = 'green';
+                        } else if (label.classList.contains('worng')) {
+                            label.style.color = 'red';
+                        }
+                    }
+                });
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
