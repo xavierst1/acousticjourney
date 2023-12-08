@@ -13,6 +13,7 @@ Für mein Programmierprojekt im Modul Interaktive Medien 5 hatte ich ursprüngli
 --
 
 In der ersten Phase erstellte ich eine Liste in Word, in der ich die wichtigsten Inhalte und Funktionen festhielt. Anschliessend skizzierte ich einen ersten Entwurf und erstellte daraus ein Prototyp mit FIGMA. Dadurch konnte ich den Prozess des Codens wesentlich vereinfachen, da der Stil und die Farben schon gewählt waren.
+
 <img width="1440" alt="Bildschirmfoto 2023-12-08 um 23 23 52" src="https://github.com/xavierst1/acousticjourney/assets/153129340/252c8301-b5c1-4509-bada-f6e7abc1b81e">
 
 
